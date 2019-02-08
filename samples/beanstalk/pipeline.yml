@@ -16,7 +16,7 @@ Parameters:
     ConstraintDescription: Can contain only ASCII characters.
   S3Bucket:
     Description: S3 Bucket that hosts the application code
-    BucketName: s3-mysampleebapp
+    Default: s3-mysampleebapp
     Type: String
     AllowedPattern: "[\\x20-\\x7E]*"
     ConstraintDescription: Can contain only ASCII characters.
